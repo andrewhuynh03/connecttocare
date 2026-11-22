@@ -23,6 +23,7 @@ connecttocare/
 ├── app/                 # Streamlit application
 ├── data/raw/            # Original data; do not commit sensitive data
 ├── data/processed/      # Cleaned, generated data
+├── docs/                # Project documentation (see data_dictionary.md)
 ├── notebooks/           # Exploratory and modeling notebooks
 ├── src/                 # Reusable Python modules
 ├── tests/               # Automated tests
@@ -30,6 +31,10 @@ connecttocare/
 ├── CLAUDE.md
 └── README.md
 ```
+
+## Data source
+
+The planned dataset is the public, anonymized Kaggle **Medical Appointment No Shows** dataset. Its columns, target variable, expected quality issues, and ethical notes are documented in [docs/data_dictionary.md](docs/data_dictionary.md). The raw file is not committed to Git.
 
 ## Local setup
 

@@ -3,7 +3,12 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ipynb_checkpoints/
+
+# Data: ignore contents, but keep the empty folders tracked
 data/raw/*
+!data/raw/.gitkeep
 data/processed/*
+!data/processed/.gitkeep
+
 *.db
 .env
